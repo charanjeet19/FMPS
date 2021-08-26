@@ -1,0 +1,8 @@
+[27-Aug-2020 19:04:36 UTC] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/fmps4688/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[13-Oct-2020 00:43:37 UTC] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/fmps4688/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/ID3/module.audio.ac3.php on line 18

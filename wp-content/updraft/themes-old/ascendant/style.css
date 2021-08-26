@@ -1,0 +1,365 @@
+/*
+ Theme Name: Ascendant
+ Theme URI: https://cpothemes.com/theme/ascendant
+ Description: Ascendant is a free multipurpose WordPress theme perfect for agencies and professionals. This theme comes with support for a full homepage slider, feature blocks, portfolios, services, team members, and even testimonials, all thanks to its companion plugin CPO Content Types. Ascendant is one of the best business WordPress themes thanks to its neutral design and extreme flexibility. Moreover, this theme also integrates with popular plugins such as WooCommerce, Yoast SEO, WPML, and Contact Form 7. 
+ Tags: one-column, two-columns, right-sidebar, full-width-template, sticky-post, theme-options, custom-background, custom-menu, featured-images, threaded-comments, translation-ready
+ Author:CPOThemes
+ Author URI: https://cpothemes.com/
+ Version: 0.7
+ License: GNU General Public License 3.0 or later
+ License URI: license.md
+ Template: allegiant
+ Text Domain: ascendant
+*/
+
+
+h1,h2,h3,h4,h5,h6, .heading {
+	font-family: "Raleway";
+}
+.menu-main li a,
+.slide-content {
+	font-family: "Raleway";
+	font-size: 13px;
+	text-transform: uppercase;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+body {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	color: #8c9597;
+	font-size: 15px;
+	line-height: 27px;
+}
+body .primary-color,
+.widget a,
+body #subfooter.dark a {
+	color: #70b85d;
+}
+a,
+.menu-main li a {
+	color: #18253c;
+}
+
+
+/* Header */
+.header { position:relative; background:#fff; border-bottom:1px solid #e1e1e1; width:100%;padding: 0; }
+.header.header-with-slider {position: absolute;width: 100%;top: 0; left: 0; background-color: transparent;z-index: 999;}
+.header.with-top-menu.header-with-slider{top:34px;}
+.header .logo { float:left; padding-top:10px;padding-bottom:10px; }
+.header .header-content { float:right; padding:0 0 0 20px; }
+
+/* Menu */
+.menu-main{ padding-top:0; }
+.menu-main > li:after{position:absolute; bottom:-1px; width:50%; left:25%; background-color:#70b85d; height:1px; display:block;z-index:999999;}
+.menu-main > li:hover:after { content: ""; }
+
+.menu-main .current-menu-ancestor > a, 
+.menu-main .current-menu-ancestor.has-children:before, 
+.menu-main .current-menu-item > a { color: #70b85d; }
+.menu-main .current_page_ancestor > a:hover, 
+.menu-main .current-menu-item > a:hover { color: #70b85d; }
+
+.menu-main .has-children:before { color:#18253c; content:'\f107'; font-size:0.813em; margin-top:-6px; font-family: "fontawesome"; border: 0 none; }
+.menu-main li ul { transform: translateX(-50%); left: 50%;margin:0; padding:10px 0; background:#fff; background:rgba(255,255,255,0.9); border:1px solid #e1e1e1; -moz-transition-delay:0.2s; -webkit-transition-delay:0.2s; transition-delay:0.2s; }
+.menu-main li ul li a { text-transform:none; font-size:13px; line-height: 40px; color:#9ea4a6; }
+.menu-main li ul li:hover{ background-color:#70b85d; }
+.menu-main li ul li:hover > a {color: #fff !important;}
+.menu-main > li { padding: 20px 0px; }
+.menu-main li ul li { padding:0 10px;  }
+.menu-main li ul ul.right-edge{ left: -100%;  }
+
+.menu-main > li > ul:before, .menu-main > li > ul:after { display: none; }
+.menu-main li ul .has-children:before{ content:"\f105"  }
+.menu-main li ul .has-children:before{border: 0 none;}
+.menu-main li ul .has-children:hover:before{ color: #fff  }
+.menu-main li ul ul { transform: translateX(0); }
+
+/* Slider */
+.slider-slides .slide-title {
+	font-size: 15px;
+	line-height: 30px;
+	color: #70b85d;
+	margin-bottom: 40px;
+	padding-bottom: 0;
+}
+.slider-slides .slide-content {
+	font-size: 33px;
+	line-height: 40px;
+	font-weight: 900;
+	color: #18253c;
+	font-family: "Raleway";
+}
+.slider-slides .slide-content:after{
+	display: none;
+}
+body .section-heading,
+body .section-title,
+body .dark:not(.subfooter) .heading {
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: 800;
+	color: #18253c;
+	font-family: "Raleway";
+}
+body .section-heading {
+	margin-bottom: 60px;
+}
+.section-heading:before {
+	background-color: #70b85d;
+	height: 2px;
+	width: 60px;
+	margin-left: -30px;
+}
+
+/* Features */
+.features .feature .feature-icon {
+	border-style: dotted;
+	border-color: #70b85d;
+	color: #70b85d;
+}
+.features .feature .feature-title {
+	font-size: 20px;
+	color: #18253c;
+	font-weight: 700;
+	line-height: 40px;
+	margin: 35px 0 20px;
+}
+.features .feature .feature-content p {
+	font-size: 15px;
+	line-height: 40px;
+}
+
+/* Tagline */
+.tagline .container,
+body:not(.allegiant_pro_template) .tagline-title,
+body.allegiant_pro_template .tagline-content {
+    font-size: 26px;
+    font-family: "Raleway";
+    font-weight: 400;
+    line-height: 44px;
+    text-transform: initial;
+}
+body.allegiant_pro_template .tagline-title {
+	font-size: 30px;
+    line-height: 35px;
+    font-weight: 800;
+    font-family: "Raleway";
+}
+.tagline-body {
+	padding-bottom: 0;
+}
+.tagline {
+	padding: 40px 0;
+	background-color: #18253c;
+	text-align: left;
+}
+.tagline a {
+	color: #70b85d;
+}
+body #tagline {
+	color: #fff;
+}
+
+/* Portfolio */
+.portfolio-item .portfolio-item-title {
+	opacity: 0;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 44px;
+	font-family: "Raleway";
+	bottom: 65%;
+}
+.portfolio-item:hover .portfolio-item-title {
+	opacity: 1;
+}
+.portfolio-item .portfolio-item-description {
+	font-size: 15px;
+	line-height: 38px;
+	top: 30%;
+}
+.portfolio-item .portfolio-item-description p {
+	margin-bottom: 0;
+}
+.portfolio-item-description:after {
+	display: block;
+	content: "\f00e";
+	font-family: "fontawesome";
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	background-color: #46743b;
+	margin: 0 auto;
+}
+
+/* Features */
+.services .service .service-title {
+	font-size: 20px;
+	line-height: 45px;
+	font-weight: 700;
+}
+.services .service .service-title a {
+	color: #18253c;
+}
+
+.services .service .service-content{
+	color: #8c9597;
+	line-height: 27px;
+}
+
+/* Testimonials */
+.testimonials .testimonial-content {
+	background: #f7f7f8;
+	padding: 40px 40px 30px;
+    text-align: center;
+}
+.testimonials .testimonial-name {
+	font-weight: 500;
+	color: #18253c;
+}
+
+/* Team */
+.team .team-member-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #18253c;
+}
+.team .team-member-body {
+	padding: 20px 30px;
+}
+.team .team-member-description {
+	font-size: 12px;
+	line-height: 24px;
+	text-transform: initial;
+	font-family: "Raleway";
+	font-weight: 400;
+}
+.testimonial-position {
+    font-family: "Raleway";
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/* Posts */
+.post .post-title {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #18253c;
+	text-transform: uppercase;
+}
+.post .post-title:after {
+	content: "";
+	width: 50px;
+	height: 2px;
+	display: block;
+	background-color: #70b85d;
+	margin-top: 20px;
+}
+.blog:not(.allegiant_pro_template) .post-byline,
+.blog:not(.allegiant_pro_template) .post-comments {
+	display: none;
+}
+html body .button, 
+html body .button:link, 
+html body .button:visited, 
+input[type=submit] {
+	border: 0 none;
+	background: #70b85d;
+	color: #fff;
+	padding: 15px 40px;
+	font-size: 15px;
+	line-height: 15px;
+	font-family: "Raleway";
+	font-weight: 500;
+}
+.widget .widget-title {
+	color: #18253c;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 26px;
+	font-family: "Raleway";
+}
+.widget_recent_entries a {
+	color: #70b85d;
+}
+
+/* Footer */
+#subfooter,
+#footer {
+	background-color: #18253c;
+}
+#footer {
+	border-top: 1px solid #a9afb1;
+	padding: 10px 0;
+}
+.footer:before {
+	display: none;
+}
+#subfooter .widget .widget-title {
+	font-weight: 500;
+}
+body #subfooter {
+	color: #a9afb1;
+}
+.widget_recent_entries .post-date,
+.ctwg-recent-item .ctwg-recent-meta {
+	color: #a9afb1;
+	font-size: 14px;
+	font-family: "Raleway";
+	line-height: 26px;
+}
+.tweet-content a,
+.tweet-date a {
+	color: #0073c3;
+}
+.ctwg-tweets .ctwg-tweet {
+	font-size: 15px;
+}
+.post-title > a > span {
+    padding-right: 10px;
+}
+
+/* Sections */
+.home .services,
+.home .team {
+    background: rgba(247,247,248, .83);
+}
+
+/* Slider */
+.slider-slides .cycle-slide-active .slide-caption, .slider-slides .cycle-slide-active .slide-image {
+	-moz-transform: translateY(60px);
+    -webkit-transform: translateY(60px);
+    transform: translateY(60px);
+}
+
+/* Features */
+.features .feature .feature-content p {
+    line-height: 26px;
+}
+
+/* Pro CSS */
+.slider-slides .slide-title {
+	padding-bottom: 0;
+}
+.slider-slides .slide-title:after {
+	display: none;
+}
+.post .post-byline:before {
+	display: none;
+}
+.post .post-byline {
+	margin-bottom: 0;
+}
+.allegiant_pro_template .menu-main .has-children:before {
+	margin-top: -13px;
+}
+.allegiant_pro_template .menu-main li ul .has-children:before {
+	margin-top: -12px;
+}
+

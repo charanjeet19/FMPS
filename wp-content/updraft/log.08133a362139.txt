@@ -1,0 +1,450 @@
+0000.000 (0) Opened log file at time: Fri, 30 Jul 2021 13:25:23 +0000 on https://fixmypagespeed.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.8 PHP: 7.3.18 (cgi-fcgi, Linux beech.afreshleaf.com 3.10.23-xxxx-std-ipv6-64 #1 SMP Tue Mar 18 14:48:24 CET 2014 x86_64) MySQL: 5.7.29-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.8M | 22M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.036 (0) Free space on disk containing Updraft's temporary directory: 1497110.4 MB
+0000.038 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.040 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.042 (0) Set semaphore last lock (fd) time to 2021-07-30 13:25:23
+0000.043 (0) Semaphore lock (fd) complete
+0000.045 (0) Backup run: resumption=0, nonce=08133a362139, file_nonce=08133a362139 begun at=1627651523 (0s ago), job type=backup
+0000.046 (0) Scheduling a resumption (1) after 300 seconds (1627651823) in case this run gets aborted
+0000.066 (0) Checking if we have a zip executable available
+0000.067 (0) Testing: /usr/bin/zip
+0000.070 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.071 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.072 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.072 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.072 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.076 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.076 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.089 (0) Working binary zip found: /usr/bin/zip
+0000.090 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.091 (0) Creation of backups of directories: beginning
+0000.092 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0000.286 (0) Total entities for the zip file: 1520 directories, 15561 files (0 skipped as non-modified), 113.2 MB
+0000.292 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.297 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.302 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.308 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.313 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.313 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 15561 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.958 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: size is now: 4.10 MB
+0000.964 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 600 files added (on-disk size: 4165.1 KB)
+0000.970 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 700 files added (on-disk size: 4165.1 KB)
+0000.975 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 800 files added (on-disk size: 4165.1 KB)
+0000.980 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 900 files added (on-disk size: 4165.1 KB)
+0000.985 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 1000 files added (on-disk size: 4165.1 KB)
+0000.986 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 15561 files batched, 501 (1002) added so far); re-opening (prior size: 4165.1 KB)
+0001.345 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: size is now: 6.60 MB
+0001.352 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 1100 files added (on-disk size: 6776.3 KB)
+0001.357 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 1200 files added (on-disk size: 6776.3 KB)
+0001.362 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 1300 files added (on-disk size: 6776.3 KB)
+0001.367 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 1400 files added (on-disk size: 6776.3 KB)
+0001.372 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 1500 files added (on-disk size: 6776.3 KB)
+0001.373 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 MB, 15561 files batched, 501 (1503) added so far); re-opening (prior size: 6776.3 KB)
+0002.076 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: size is now: 10.70 MB
+0002.082 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 1600 files added (on-disk size: 10945.6 KB)
+0002.087 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 1700 files added (on-disk size: 10945.6 KB)
+0002.093 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 1800 files added (on-disk size: 10945.6 KB)
+0002.098 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 1900 files added (on-disk size: 10945.6 KB)
+0002.103 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 2000 files added (on-disk size: 10945.6 KB)
+0002.104 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 15561 files batched, 501 (2004) added so far); re-opening (prior size: 10945.6 KB)
+0002.212 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 2100 files added (on-disk size: 11596.5 KB)
+0002.219 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 2200 files added (on-disk size: 11596.5 KB)
+0002.225 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 2300 files added (on-disk size: 11596.5 KB)
+0002.232 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 2400 files added (on-disk size: 11596.5 KB)
+0002.238 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 2500 files added (on-disk size: 11596.5 KB)
+0002.239 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 15561 files batched, 501 (2505) added so far); re-opening (prior size: 11596.5 KB)
+0002.510 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 2600 files added (on-disk size: 13579.7 KB)
+0002.516 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 2700 files added (on-disk size: 13579.7 KB)
+0002.521 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 2800 files added (on-disk size: 13579.7 KB)
+0002.526 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 2900 files added (on-disk size: 13579.7 KB)
+0002.531 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 3000 files added (on-disk size: 13579.7 KB)
+0002.532 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 15561 files batched, 501 (3006) added so far); re-opening (prior size: 13579.7 KB)
+0002.710 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 3100 files added (on-disk size: 14598.6 KB)
+0002.715 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 3200 files added (on-disk size: 14598.6 KB)
+0002.720 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 3300 files added (on-disk size: 14598.6 KB)
+0002.725 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 3400 files added (on-disk size: 14598.6 KB)
+0002.730 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 3500 files added (on-disk size: 14598.6 KB)
+0002.731 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 MB, 15561 files batched, 501 (3507) added so far); re-opening (prior size: 14598.6 KB)
+0003.133 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 3600 files added (on-disk size: 17170.3 KB)
+0003.138 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 3700 files added (on-disk size: 17170.3 KB)
+0003.143 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 3800 files added (on-disk size: 17170.3 KB)
+0003.148 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 3900 files added (on-disk size: 17170.3 KB)
+0003.154 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 4000 files added (on-disk size: 17170.3 KB)
+0003.155 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 15561 files batched, 501 (4008) added so far); re-opening (prior size: 17170.3 KB)
+0003.328 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 4100 files added (on-disk size: 18688.1 KB)
+0003.333 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 4200 files added (on-disk size: 18688.1 KB)
+0003.339 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 4300 files added (on-disk size: 18688.1 KB)
+0003.344 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 4400 files added (on-disk size: 18688.1 KB)
+0003.349 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 4500 files added (on-disk size: 18688.1 KB)
+0003.350 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.1 MB, 15561 files batched, 501 (4509) added so far); re-opening (prior size: 18688.1 KB)
+0003.979 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: size is now: 22.50 MB
+0003.985 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 4600 files added (on-disk size: 23002.4 KB)
+0003.990 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 4700 files added (on-disk size: 23002.4 KB)
+0003.995 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 4800 files added (on-disk size: 23002.4 KB)
+0004.000 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 4900 files added (on-disk size: 23002.4 KB)
+0004.006 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 5000 files added (on-disk size: 23002.4 KB)
+0004.007 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 15561 files batched, 501 (5010) added so far); re-opening (prior size: 23002.4 KB)
+0004.246 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 5100 files added (on-disk size: 24563.3 KB)
+0004.251 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 5200 files added (on-disk size: 24563.3 KB)
+0004.256 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 5300 files added (on-disk size: 24563.3 KB)
+0004.261 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 5400 files added (on-disk size: 24563.3 KB)
+0004.266 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 5500 files added (on-disk size: 24563.3 KB)
+0004.267 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 15561 files batched, 501 (5511) added so far); re-opening (prior size: 24563.3 KB)
+0004.390 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 5600 files added (on-disk size: 25089.2 KB)
+0004.395 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 5700 files added (on-disk size: 25089.2 KB)
+0004.400 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 5800 files added (on-disk size: 25089.2 KB)
+0004.405 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip.tmp: 5900 files added (on-disk size: 25089.2 KB)
+0004.406 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (1.2 MB, 396 (5907) files added so far); last ratio: 0.496; re-opening (prior size: 25089.2 KB)
+0004.522 (0) Zip size is at/near split limit (24.9 MB / 25 MB) - bumping index (from: 0)
+0004.874 (0) Created plugins zip (0) - 25525.4 KB in 4.4 s (5808.1 KB/s) (checksums: sha1: 70e27ebcbe81fb1eebed74f92e46f6ea3bd975ef, sha256: 285a3db50db8b04206b28ffbff117dd1113801e12db303b8b25611c997a139e7)
+0004.880 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0004.885 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0004.890 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0004.896 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0004.901 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0004.902 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 15561 files batched, 501 (6408) added so far); re-opening (prior size: 0 KB)
+0004.958 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: size is now: 0.50 MB
+0004.964 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 6500 files added (on-disk size: 545.7 KB)
+0004.970 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 6600 files added (on-disk size: 545.7 KB)
+0004.975 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 6700 files added (on-disk size: 545.7 KB)
+0004.980 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 6800 files added (on-disk size: 545.7 KB)
+0004.985 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 6900 files added (on-disk size: 545.7 KB)
+0004.987 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 15561 files batched, 501 (6909) added so far); re-opening (prior size: 545.7 KB)
+0005.045 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: size is now: 1.00 MB
+0005.051 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 7000 files added (on-disk size: 1058.6 KB)
+0005.057 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 7100 files added (on-disk size: 1058.6 KB)
+0005.062 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 7200 files added (on-disk size: 1058.6 KB)
+0005.067 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 7300 files added (on-disk size: 1058.6 KB)
+0005.072 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 7400 files added (on-disk size: 1058.6 KB)
+0005.073 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 15561 files batched, 501 (7410) added so far); re-opening (prior size: 1058.6 KB)
+0005.135 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: size is now: 1.50 MB
+0005.141 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 7500 files added (on-disk size: 1562.9 KB)
+0005.146 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 7600 files added (on-disk size: 1562.9 KB)
+0005.151 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 7700 files added (on-disk size: 1562.9 KB)
+0005.157 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 7800 files added (on-disk size: 1562.9 KB)
+0005.162 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 7900 files added (on-disk size: 1562.9 KB)
+0005.163 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 15561 files batched, 501 (7911) added so far); re-opening (prior size: 1562.9 KB)
+0005.240 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: size is now: 2.10 MB
+0005.246 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 8000 files added (on-disk size: 2155.1 KB)
+0005.251 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 8100 files added (on-disk size: 2155.1 KB)
+0005.257 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 8200 files added (on-disk size: 2155.1 KB)
+0005.262 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 8300 files added (on-disk size: 2155.1 KB)
+0005.268 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 8400 files added (on-disk size: 2155.1 KB)
+0005.269 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 15561 files batched, 501 (8412) added so far); re-opening (prior size: 2155.1 KB)
+0005.344 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: size is now: 2.60 MB
+0005.350 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 8500 files added (on-disk size: 2694.7 KB)
+0005.356 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 8600 files added (on-disk size: 2694.7 KB)
+0005.361 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 8700 files added (on-disk size: 2694.7 KB)
+0005.366 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 8800 files added (on-disk size: 2694.7 KB)
+0005.372 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 8900 files added (on-disk size: 2694.7 KB)
+0005.373 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.9 MB, 15561 files batched, 501 (8913) added so far); re-opening (prior size: 2694.7 KB)
+0005.455 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 9000 files added (on-disk size: 3199.1 KB)
+0005.461 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 9100 files added (on-disk size: 3199.1 KB)
+0005.466 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 9200 files added (on-disk size: 3199.1 KB)
+0005.471 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 9300 files added (on-disk size: 3199.1 KB)
+0005.477 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 9400 files added (on-disk size: 3199.1 KB)
+0005.478 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.1 MB, 15561 files batched, 501 (9414) added so far); re-opening (prior size: 3199.1 KB)
+0005.571 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 9500 files added (on-disk size: 3730.4 KB)
+0005.577 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 9600 files added (on-disk size: 3730.4 KB)
+0005.582 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 9700 files added (on-disk size: 3730.4 KB)
+0005.587 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 9800 files added (on-disk size: 3730.4 KB)
+0005.593 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 9900 files added (on-disk size: 3730.4 KB)
+0005.594 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 15561 files batched, 501 (9915) added so far); re-opening (prior size: 3730.4 KB)
+0005.691 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 10000 files added (on-disk size: 4260.1 KB)
+0005.696 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 10100 files added (on-disk size: 4260.1 KB)
+0005.701 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 10200 files added (on-disk size: 4260.1 KB)
+0005.707 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 10300 files added (on-disk size: 4260.1 KB)
+0005.712 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 10400 files added (on-disk size: 4260.1 KB)
+0005.713 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 15561 files batched, 501 (10416) added so far); re-opening (prior size: 4260.1 KB)
+0005.812 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 10500 files added (on-disk size: 4824 KB)
+0005.819 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 10600 files added (on-disk size: 4824 KB)
+0005.825 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 10700 files added (on-disk size: 4824 KB)
+0005.830 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 10800 files added (on-disk size: 4824 KB)
+0005.836 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 10900 files added (on-disk size: 4824 KB)
+0005.837 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 15561 files batched, 501 (10917) added so far); re-opening (prior size: 4824 KB)
+0005.936 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 11000 files added (on-disk size: 5354.4 KB)
+0005.941 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 11100 files added (on-disk size: 5354.4 KB)
+0005.947 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 11200 files added (on-disk size: 5354.4 KB)
+0005.952 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 11300 files added (on-disk size: 5354.4 KB)
+0005.957 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 11400 files added (on-disk size: 5354.4 KB)
+0005.959 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 15561 files batched, 501 (11418) added so far); re-opening (prior size: 5354.4 KB)
+0006.057 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 11500 files added (on-disk size: 5864.8 KB)
+0006.063 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 11600 files added (on-disk size: 5864.8 KB)
+0006.068 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 11700 files added (on-disk size: 5864.8 KB)
+0006.073 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 11800 files added (on-disk size: 5864.8 KB)
+0006.078 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 11900 files added (on-disk size: 5864.8 KB)
+0006.080 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.1 MB, 15561 files batched, 501 (11919) added so far); re-opening (prior size: 5864.8 KB)
+0006.187 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 12000 files added (on-disk size: 6421.3 KB)
+0006.192 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 12100 files added (on-disk size: 6421.3 KB)
+0006.197 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 12200 files added (on-disk size: 6421.3 KB)
+0006.203 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 12300 files added (on-disk size: 6421.3 KB)
+0006.208 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 12400 files added (on-disk size: 6421.3 KB)
+0006.209 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 15561 files batched, 501 (12420) added so far); re-opening (prior size: 6421.3 KB)
+0006.317 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 12500 files added (on-disk size: 6931 KB)
+0006.322 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 12600 files added (on-disk size: 6931 KB)
+0006.328 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 12700 files added (on-disk size: 6931 KB)
+0006.333 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 12800 files added (on-disk size: 6931 KB)
+0006.338 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 12900 files added (on-disk size: 6931 KB)
+0006.340 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 15561 files batched, 501 (12921) added so far); re-opening (prior size: 6931 KB)
+0006.451 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 13000 files added (on-disk size: 7454.6 KB)
+0006.457 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 13100 files added (on-disk size: 7454.6 KB)
+0006.462 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 13200 files added (on-disk size: 7454.6 KB)
+0006.467 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 13300 files added (on-disk size: 7454.6 KB)
+0006.473 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 13400 files added (on-disk size: 7454.6 KB)
+0006.475 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 15561 files batched, 501 (13422) added so far); re-opening (prior size: 7454.6 KB)
+0006.595 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 13500 files added (on-disk size: 7978.3 KB)
+0006.602 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 13600 files added (on-disk size: 7978.3 KB)
+0006.608 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 13700 files added (on-disk size: 7978.3 KB)
+0006.615 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 13800 files added (on-disk size: 7978.3 KB)
+0006.621 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 13900 files added (on-disk size: 7978.3 KB)
+0006.623 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 15561 files batched, 501 (13923) added so far); re-opening (prior size: 7978.3 KB)
+0006.744 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 14000 files added (on-disk size: 8471 KB)
+0006.750 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 14100 files added (on-disk size: 8471 KB)
+0006.755 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 14200 files added (on-disk size: 8471 KB)
+0006.760 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 14300 files added (on-disk size: 8471 KB)
+0006.765 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 14400 files added (on-disk size: 8471 KB)
+0006.767 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 15561 files batched, 501 (14424) added so far); re-opening (prior size: 8471 KB)
+0006.910 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 14500 files added (on-disk size: 9135.1 KB)
+0006.915 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 14600 files added (on-disk size: 9135.1 KB)
+0006.921 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 14700 files added (on-disk size: 9135.1 KB)
+0006.926 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 14800 files added (on-disk size: 9135.1 KB)
+0006.931 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 14900 files added (on-disk size: 9135.1 KB)
+0006.933 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 15561 files batched, 501 (14925) added so far); re-opening (prior size: 9135.1 KB)
+0007.262 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: size is now: 10.80 MB
+0007.267 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 15000 files added (on-disk size: 11053.3 KB)
+0007.272 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 15100 files added (on-disk size: 11053.3 KB)
+0007.277 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 15200 files added (on-disk size: 11053.3 KB)
+0007.282 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 15300 files added (on-disk size: 11053.3 KB)
+0007.287 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 15400 files added (on-disk size: 11053.3 KB)
+0007.289 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.9 MB, 15561 files batched, 501 (15426) added so far); re-opening (prior size: 11053.3 KB)
+0007.726 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: size is now: 14.00 MB
+0007.732 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip.tmp: 15500 files added (on-disk size: 14306.6 KB)
+0008.083 (0) Created plugins zip (1) - 14777.5 KB in 3.2 s (4606.6 KB/s) (sha1: 2617f73712f79bd4f3480c47071f4efb6cb3d78f, sha256: c9338c7596935485a24b2f0d3e3249b7c02e0959af49fe80a34940e365e76b8f)
+0008.084 (0) Beginning creation of dump of themes (split every: 25 MB)
+0008.129 (0) Total entities for the zip file: 169 directories, 736 files (0 skipped as non-modified), 19.7 MB
+0008.134 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.140 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.145 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.150 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.155 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.156 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 MB, 736 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0008.375 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip.tmp: size is now: 5.50 MB
+0008.382 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip.tmp: 600 files added (on-disk size: 5598.7 KB)
+0008.387 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip.tmp: 700 files added (on-disk size: 5598.7 KB)
+0009.061 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip.tmp: size is now: 11.00 MB
+0009.220 (0) Created themes zip (0) - 11300.6 KB in 1.1 s (10273.7 KB/s) (sha1: 3f735a64e84c9e0c979e44ecb040a7b3567d5c83, sha256: b79057b5339bdedbc7814723acb2ff366cb0ce5153ef1a7db46f46d796aa09f4)
+0009.221 (0) Exclusion option setting (uploads): 
+0009.221 (0) Looking for candidates to backup in: /home/fmps4688/public_html/wp-content/uploads
+0009.222 (0) finding files: 2015: adding to list (1)
+0009.222 (0) finding files: 2014: adding to list (2)
+0009.223 (0) finding files: elementor: adding to list (3)
+0009.223 (0) finding files: wpseo-redirects: adding to list (4)
+0009.224 (0) finding files: 2021: adding to list (5)
+0009.224 (0) finding files: ao_ccss: adding to list (6)
+0009.224 (0) finding files: 2020: adding to list (7)
+0009.225 (0) finding files: 2016: adding to list (8)
+0009.225 (0) finding files: 2012: adding to list (9)
+0009.226 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0009.265 (0) Total entities for the zip file: 31 directories, 173 files (0 skipped as non-modified), 8.8 MB
+0009.271 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.535 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-uploads.zip.tmp: size is now: 8.80 MB
+0009.661 (0) Created uploads zip (0) - 9024.2 KB in 0.4 s (22632.9 KB/s) (sha1: d1d4ccfb709819269df37922bf3df402fdb77b92, sha256: 24e79e1908d9802061b79e2f1118efbfda4eb528cdbb7db12f0f4ef08485ac87)
+0009.663 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.663 (0) Exclusion option setting (others): 
+0009.663 (0) Looking for candidates to backup in: /home/fmps4688/public_html/wp-content
+0009.664 (0) finding files: wflogs-old: adding to list (1)
+0009.664 (0) finding files: wflogs: adding to list (2)
+0009.665 (0) finding files: updraft: skipping: this is the updraft directory
+0009.665 (0) finding files: uploads-old: adding to list (3)
+0009.665 (0) finding files: themes-old: adding to list (4)
+0009.666 (0) finding files: uploads: skipping: this is the uploads directory
+0009.666 (0) finding files: plugins: skipping: this is the plugins directory
+0009.667 (0) finding files: upgrade: adding to list (5)
+0009.667 (0) finding files: themes: skipping: this is the themes directory
+0009.667 (0) finding files: cache: adding to list (6)
+0009.668 (0) finding files: index.php: adding to list (7)
+0009.668 (0) finding files: plugins-old: adding to list (8)
+0009.668 (0) finding files: index.php-old: adding to list (9)
+0009.706 (0) Total entities for the zip file: 10 directories, 124 files (0 skipped as non-modified), 21.3 MB
+0009.713 (0) Zip: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.042 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-others.zip.tmp: size is now: 7.60 MB
+0011.149 (0) Created others zip (0) - 7734.6 KB in 1.4 s (5350.5 KB/s) (sha1: 4e58308cdaf994f62e17ec3d83b834769116d289, sha256: 5832ad65a75016770cd9748cb8a24f7955922d5e3a426277a7f56baffabd2855)
+0011.152 (0) Saving backup status to database (elements: 9)
+0011.154 (0) Beginning creation of database dump (WordPress DB)
+0011.155 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0011.237 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpzo_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1237 bytes total)
+0011.238 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0011.241 (0) Table wpzo_options: Total expected rows (approximate): 481
+0011.322 (0) Table wpzo_options: Total rows added: 473 in 0.08 seconds
+0011.323 (0) Table wpzo_options: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_options.table.gz - 357.9 KB)
+0011.325 (0) Table wpzo_users: Total expected rows (approximate): 3
+0011.327 (0) Table wpzo_users: Total rows added: 3 in 0.00 seconds
+0011.327 (0) Table wpzo_users: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_users.table.gz - 0.7 KB)
+0011.329 (0) Table wpzo_usermeta: Total expected rows (approximate): 89
+0011.331 (0) Table wpzo_usermeta: Total rows added: 89 in 0.00 seconds
+0011.332 (0) Table wpzo_usermeta: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_usermeta.table.gz - 1.9 KB)
+0011.334 (0) Table wpzo_commentmeta: Total expected rows (approximate): 0
+0011.335 (0) Table wpzo_commentmeta: Total rows added: 0 in 0.00 seconds
+0011.335 (0) Table wpzo_commentmeta: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_commentmeta.table.gz - 0.4 KB)
+0011.337 (0) Table wpzo_comments: Total expected rows (approximate): 101
+0011.341 (0) Table wpzo_comments: Total rows added: 101 in 0.00 seconds
+0011.342 (0) Table wpzo_comments: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_comments.table.gz - 11 KB)
+0011.343 (0) Table wpzo_links: Total expected rows (approximate): 0
+0011.345 (0) Table wpzo_links: Total rows added: 0 in 0.00 seconds
+0011.345 (0) Table wpzo_links: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_links.table.gz - 0.4 KB)
+0011.347 (0) Table wpzo_postmeta: Total expected rows (approximate): 1036
+0011.360 (0) Table wpzo_postmeta: Total rows added: 1036 in 0.01 seconds
+0011.360 (0) Table wpzo_postmeta: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_postmeta.table.gz - 26.9 KB)
+0011.362 (0) Table wpzo_posts: Total expected rows (approximate): 149
+0011.368 (0) Table wpzo_posts: Total rows added: 149 in 0.01 seconds
+0011.369 (0) Table wpzo_posts: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_posts.table.gz - 13.1 KB)
+0011.371 (0) Table wpzo_term_relationships: Total expected rows (approximate): 26
+0011.373 (0) Table wpzo_term_relationships: Total rows added: 26 in 0.00 seconds
+0011.373 (0) Table wpzo_term_relationships: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_term_relationships.table.gz - 0.4 KB)
+0011.375 (0) Table wpzo_term_taxonomy: Total expected rows (approximate): 38
+0011.377 (0) Table wpzo_term_taxonomy: Total rows added: 38 in 0.00 seconds
+0011.377 (0) Table wpzo_term_taxonomy: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_term_taxonomy.table.gz - 0.7 KB)
+0011.380 (0) Table wpzo_termmeta: Total expected rows (approximate): 0
+0011.380 (0) Table wpzo_termmeta: Total rows added: 0 in 0.00 seconds
+0011.381 (0) Table wpzo_termmeta: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_termmeta.table.gz - 0.4 KB)
+0011.383 (0) Table wpzo_terms: Total expected rows (approximate): 38
+0011.385 (0) Table wpzo_terms: Total rows added: 38 in 0.00 seconds
+0011.385 (0) Table wpzo_terms: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_terms.table.gz - 0.8 KB)
+0011.388 (0) Table wpzo_yoast_seo_links: Total expected rows (approximate): 1
+0011.403 (0) Table wpzo_yoast_seo_links: Total rows added: 1 in 0.01 seconds
+0011.403 (0) Table wpzo_yoast_seo_links: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_yoast_seo_links.table.gz - 0.4 KB)
+0011.406 (0) Table wpzo_yoast_seo_meta: Total expected rows (approximate): 78
+0011.408 (0) Table wpzo_yoast_seo_meta: Total rows added: 78 in 0.00 seconds
+0011.409 (0) Table wpzo_yoast_seo_meta: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_yoast_seo_meta.table.gz - 0.6 KB)
+0011.411 (0) Table wpzo_sgpb_subscribers: Total expected rows (approximate): 0
+0011.413 (0) Table wpzo_sgpb_subscribers: Total rows added: 0 in 0.00 seconds
+0011.413 (0) Table wpzo_sgpb_subscribers: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_sgpb_subscribers.table.gz - 0.3 KB)
+0011.416 (0) Table wpzo_sgpb_subscription_error_log: Total expected rows (approximate): 0
+0011.417 (0) Table wpzo_sgpb_subscription_error_log: Total rows added: 0 in 0.00 seconds
+0011.418 (0) Table wpzo_sgpb_subscription_error_log: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_sgpb_subscription_error_log.table.gz - 0.3 KB)
+0011.420 (0) Table wpzo_wfblockediplog: Total expected rows (approximate): 2389
+0011.437 (0) Table wpzo_wfblockediplog: Total rows added: 2389 in 0.02 seconds
+0011.438 (0) Table wpzo_wfblockediplog: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfblockediplog.table.gz - 17.2 KB)
+0011.440 (0) Table wpzo_wfblocks7: Total expected rows (approximate): 50
+0011.442 (0) Table wpzo_wfblocks7: Total rows added: 50 in 0.00 seconds
+0011.443 (0) Table wpzo_wfblocks7: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfblocks7.table.gz - 1.5 KB)
+0011.445 (0) Table wpzo_wfconfig: Total expected rows (approximate): 257
+0011.503 (0) Table wpzo_wfconfig: Total rows added: 257 in 0.06 seconds
+0011.504 (0) Table wpzo_wfconfig: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfconfig.table.gz - 432.9 KB)
+0011.506 (0) Table wpzo_wfcrawlers: Total expected rows (approximate): 20
+0011.507 (0) Table wpzo_wfcrawlers: Total rows added: 20 in 0.00 seconds
+0011.508 (0) Table wpzo_wfcrawlers: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfcrawlers.table.gz - 0.7 KB)
+0011.510 (0) Table wpzo_wffilechanges: Total expected rows (approximate): 0
+0011.511 (0) Table wpzo_wffilechanges: Total rows added: 0 in 0.00 seconds
+0011.511 (0) Table wpzo_wffilechanges: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wffilechanges.table.gz - 0.3 KB)
+0011.513 (0) Table wpzo_wffilemods: Total expected rows (approximate): 31930
+0012.026 (0) Table wpzo_wffilemods: binary mysqldump finished (writes: 43) in 0.51 seconds
+0012.027 (0) Table wpzo_wffilemods: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wffilemods.table.gz - 2713 KB)
+0012.029 (0) Table wpzo_wfhits: Total expected rows (approximate): 1735
+0012.064 (0) Table wpzo_wfhits: Total rows added: 1735 in 0.03 seconds
+0012.064 (0) Table wpzo_wfhits: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfhits.table.gz - 44.3 KB)
+0012.067 (0) Table wpzo_wfhoover: Total expected rows (approximate): 0
+0012.068 (0) Table wpzo_wfhoover: Total rows added: 0 in 0.00 seconds
+0012.069 (0) Table wpzo_wfhoover: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfhoover.table.gz - 0.3 KB)
+0012.071 (0) Table wpzo_wfissues: Total expected rows (approximate): 18
+0012.073 (0) Table wpzo_wfissues: Total rows added: 18 in 0.00 seconds
+0012.074 (0) Table wpzo_wfissues: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfissues.table.gz - 5.3 KB)
+0012.076 (0) Table wpzo_wfknownfilelist: Total expected rows (approximate): 31930
+0012.325 (0) Table wpzo_wfknownfilelist: binary mysqldump finished (writes: 31) in 0.25 seconds
+0012.326 (0) Table wpzo_wfknownfilelist: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfknownfilelist.table.gz - 317.2 KB)
+0012.328 (0) Table wpzo_wflivetraffichuman: Total expected rows (approximate): 0
+0012.329 (0) Table wpzo_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0012.330 (0) Table wpzo_wflivetraffichuman: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wflivetraffichuman.table.gz - 0.3 KB)
+0012.332 (0) Table wpzo_wflocs: Total expected rows (approximate): 3
+0012.333 (0) Table wpzo_wflocs: Total rows added: 3 in 0.00 seconds
+0012.334 (0) Table wpzo_wflocs: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wflocs.table.gz - 0.5 KB)
+0012.336 (0) Table wpzo_wflogins: Total expected rows (approximate): 2094
+0012.369 (0) Table wpzo_wflogins: Total rows added: 2094 in 0.03 seconds
+0012.369 (0) Table wpzo_wflogins: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wflogins.table.gz - 50.2 KB)
+0012.372 (0) Table wpzo_wfls_2fa_secrets: Total expected rows (approximate): 0
+0012.373 (0) Table wpzo_wfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+0012.374 (0) Table wpzo_wfls_2fa_secrets: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfls_2fa_secrets.table.gz - 0.4 KB)
+0012.376 (0) Table wpzo_wfls_settings: Total expected rows (approximate): 19
+0012.377 (0) Table wpzo_wfls_settings: Total rows added: 19 in 0.00 seconds
+0012.377 (0) Table wpzo_wfls_settings: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfls_settings.table.gz - 0.8 KB)
+0012.379 (0) Table wpzo_wfnotifications: Total expected rows (approximate): 2
+0012.381 (0) Table wpzo_wfnotifications: Total rows added: 2 in 0.00 seconds
+0012.381 (0) Table wpzo_wfnotifications: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfnotifications.table.gz - 0.5 KB)
+0012.383 (0) Table wpzo_wfpendingissues: Total expected rows (approximate): 0
+0012.384 (0) Table wpzo_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0012.385 (0) Table wpzo_wfpendingissues: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfpendingissues.table.gz - 0.4 KB)
+0012.387 (0) Table wpzo_wfreversecache: Total expected rows (approximate): 4
+0012.388 (0) Table wpzo_wfreversecache: Total rows added: 4 in 0.00 seconds
+0012.389 (0) Table wpzo_wfreversecache: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfreversecache.table.gz - 0.5 KB)
+0012.391 (0) Table wpzo_wfsnipcache: Total expected rows (approximate): 1
+0012.392 (0) Table wpzo_wfsnipcache: Total rows added: 1 in 0.00 seconds
+0012.392 (0) Table wpzo_wfsnipcache: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfsnipcache.table.gz - 0.4 KB)
+0012.394 (0) Table wpzo_wfstatus: Total expected rows (approximate): 1686
+0012.410 (0) Table wpzo_wfstatus: Total rows added: 1686 in 0.02 seconds
+0012.411 (0) Table wpzo_wfstatus: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfstatus.table.gz - 28.6 KB)
+0012.413 (0) Table wpzo_wftrafficrates: Total expected rows (approximate): 0
+0012.414 (0) Table wpzo_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0012.414 (0) Table wpzo_wftrafficrates: finishing file (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wftrafficrates.table.gz - 0.3 KB)
+0012.416 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_options.table.gz (1/37): adding to final database dump
+0012.493 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_users.table.gz (2/37): adding to final database dump
+0012.493 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_usermeta.table.gz (3/37): adding to final database dump
+0012.494 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_commentmeta.table.gz (4/37): adding to final database dump
+0012.494 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_comments.table.gz (5/37): adding to final database dump
+0012.497 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_links.table.gz (6/37): adding to final database dump
+0012.497 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_postmeta.table.gz (7/37): adding to final database dump
+0012.506 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_posts.table.gz (8/37): adding to final database dump
+0012.509 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_term_relationships.table.gz (9/37): adding to final database dump
+0012.510 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_term_taxonomy.table.gz (10/37): adding to final database dump
+0012.511 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_termmeta.table.gz (11/37): adding to final database dump
+0012.511 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_terms.table.gz (12/37): adding to final database dump
+0012.512 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_yoast_seo_links.table.gz (13/37): adding to final database dump
+0012.512 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_yoast_seo_meta.table.gz (14/37): adding to final database dump
+0012.513 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_sgpb_subscribers.table.gz (15/37): adding to final database dump
+0012.514 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_sgpb_subscription_error_log.table.gz (16/37): adding to final database dump
+0012.514 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfblockediplog.table.gz (17/37): adding to final database dump
+0012.520 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfblocks7.table.gz (18/37): adding to final database dump
+0012.521 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfconfig.table.gz (19/37): adding to final database dump
+0012.582 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfcrawlers.table.gz (20/37): adding to final database dump
+0012.583 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wffilechanges.table.gz (21/37): adding to final database dump
+0012.583 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wffilemods.table.gz (22/37): adding to final database dump
+0012.890 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfhits.table.gz (23/37): adding to final database dump
+0012.903 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfhoover.table.gz (24/37): adding to final database dump
+0012.903 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfissues.table.gz (25/37): adding to final database dump
+0012.905 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfknownfilelist.table.gz (26/37): adding to final database dump
+0012.991 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wflivetraffichuman.table.gz (27/37): adding to final database dump
+0012.992 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wflocs.table.gz (28/37): adding to final database dump
+0012.992 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wflogins.table.gz (29/37): adding to final database dump
+0013.007 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfls_2fa_secrets.table.gz (30/37): adding to final database dump
+0013.007 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfls_settings.table.gz (31/37): adding to final database dump
+0013.008 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfnotifications.table.gz (32/37): adding to final database dump
+0013.008 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfpendingissues.table.gz (33/37): adding to final database dump
+0013.009 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfreversecache.table.gz (34/37): adding to final database dump
+0013.009 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfsnipcache.table.gz (35/37): adding to final database dump
+0013.010 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wfstatus.table.gz (36/37): adding to final database dump
+0013.017 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db-table-wpzo_wftrafficrates.table.gz (37/37): adding to final database dump
+0013.019 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db.gz: finished writing out complete database file (4000 KB)
+0013.077 (0) Total database tables backed up: 37 (backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db.gz, size: 4125760, sha1: f4144b94d4138e511685861bbf9cb28f9bf0f195, sha256: c599ca1645cf605465e6752111ce28601b78f0f95d75416ba87f5d71cf460aa3)
+0013.081 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0013.082 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip: plugins: This file has not yet been successfully uploaded: will queue
+0013.082 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0013.083 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0013.083 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-others.zip: others: This file has not yet been successfully uploaded: will queue
+0013.084 (0) backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db.gz: db: This file has not yet been successfully uploaded: will queue
+0013.084 (0) Saving backup history. Total backup size: 70.7 MB
+0013.086 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0013.088 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0013.089 (0) No remote despatch: user chose no remote backup service
+0013.089 (0) Recording as successfully uploaded: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins.zip
+0013.090 (0) Recording as successfully uploaded: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-plugins2.zip
+0013.092 (0) Recording as successfully uploaded: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-themes.zip
+0013.093 (0) Recording as successfully uploaded: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-uploads.zip
+0013.094 (0) Recording as successfully uploaded: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-others.zip
+0013.096 (0) Recording as successfully uploaded: backup_2021-07-30-1325_Fix_My_Page_Speed_08133a362139-db.gz
+0013.097 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0013.098 (0) Resume backup (08133a362139, 0): finish run
+0013.099 (0) Decremented the semaphore (fd) by 1
+0013.100 (0) Semaphore (fd) unlocked
+0013.100 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0013.102 (0) No email will/can be sent - the user has not configured an email address.
+0013.103 (0) The backup apparently succeeded and is now complete

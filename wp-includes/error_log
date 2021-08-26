@@ -1,0 +1,84 @@
+[02-Sep-2020 19:54:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/fmps4688/public_html/wp-includes/update.php:813
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/update.php on line 813
+[02-Sep-2020 19:55:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/fmps4688/public_html/wp-includes/update.php:813
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/update.php on line 813
+[02-Sep-2020 19:55:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/fmps4688/public_html/wp-includes/update.php:813
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/update.php on line 813
+[02-Sep-2020 19:55:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/fmps4688/public_html/wp-includes/update.php:813
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/update.php on line 813
+[03-Sep-2020 00:23:51 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/fmps4688/public_html/wp-includes/class-wp-xmlrpc-server.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[03-Sep-2020 14:12:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/fmps4688/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/feed-atom-comments.php on line 8
+[20-Jul-2021 19:14:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/fmps4688/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/locale.php on line 11
+[20-Jul-2021 20:15:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home/fmps4688/public_html/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[01-Aug-2021 17:22:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[06-Aug-2021 04:18:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[09-Aug-2021 01:12:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[09-Aug-2021 17:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[10-Aug-2021 06:06:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[10-Aug-2021 16:04:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[10-Aug-2021 18:30:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[18-Aug-2021 04:52:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[19-Aug-2021 16:56:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[22-Aug-2021 07:43:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[22-Aug-2021 15:48:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[22-Aug-2021 23:09:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12
+[24-Aug-2021 02:08:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/fmps4688/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fmps4688/public_html/wp-includes/template-canvas.php on line 12

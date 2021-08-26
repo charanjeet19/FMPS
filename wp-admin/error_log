@@ -1,0 +1,28 @@
+[02-Nov-2020 05:57:38 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /home/fmps4688/public_html/wp-content/plugins/elementor-pro/license/updater.php:150
+Stack trace:
+#0 /home/fmps4688/public_html/wp-includes/class-wp-hook.php(287): ElementorPro\License\Updater->plugins_api_filter(false, 'plugin_informat...', Object(stdClass))
+#1 /home/fmps4688/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters(false, Array)
+#2 /home/fmps4688/public_html/wp-admin/includes/plugin-install.php(150): apply_filters('plugins_api', false, 'plugin_informat...', Object(stdClass))
+#3 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScanEngine.php(1591): plugins_api('plugin_informat...', Object(stdClass))
+#4 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScanEngine.php(391): wfScanEngine->scan_oldVersions_main()
+#5 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScanEngine.php(192): wfScanEngine->doScan()
+#6 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScan.php(197): wfSca in /home/fmps4688/public_html/wp-content/plugins/elementor-pro/license/updater.php on line 150
+[23-Nov-2020 06:06:08 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /home/fmps4688/public_html/wp-content/plugins/elementor-pro/license/updater.php:150
+Stack trace:
+#0 /home/fmps4688/public_html/wp-includes/class-wp-hook.php(287): ElementorPro\License\Updater->plugins_api_filter(false, 'plugin_informat...', Object(stdClass))
+#1 /home/fmps4688/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters(false, Array)
+#2 /home/fmps4688/public_html/wp-admin/includes/plugin-install.php(150): apply_filters('plugins_api', false, 'plugin_informat...', Object(stdClass))
+#3 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScanEngine.php(1591): plugins_api('plugin_informat...', Object(stdClass))
+#4 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScanEngine.php(391): wfScanEngine->scan_oldVersions_main()
+#5 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScanEngine.php(192): wfScanEngine->doScan()
+#6 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScan.php(197): wfSca in /home/fmps4688/public_html/wp-content/plugins/elementor-pro/license/updater.php on line 150
+[21-Jun-2021 06:05:32 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /home/fmps4688/public_html/wp-content/plugins/elementor-pro/license/updater.php:150
+Stack trace:
+#0 /home/fmps4688/public_html/wp-includes/class-wp-hook.php(287): ElementorPro\License\Updater->plugins_api_filter(false, 'plugin_informat...', Object(stdClass))
+#1 /home/fmps4688/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters(false, Array)
+#2 /home/fmps4688/public_html/wp-admin/includes/plugin-install.php(150): apply_filters('plugins_api', false, 'plugin_informat...', Object(stdClass))
+#3 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScanEngine.php(1591): plugins_api('plugin_informat...', Object(stdClass))
+#4 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScanEngine.php(391): wfScanEngine->scan_oldVersions_main()
+#5 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScanEngine.php(192): wfScanEngine->doScan()
+#6 /home/fmps4688/public_html/wp-content/plugins/wordfence/lib/wfScan.php(197): wfSca in /home/fmps4688/public_html/wp-content/plugins/elementor-pro/license/updater.php on line 150
+[12-Aug-2021 18:21:35 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 2097152 bytes) in /home/fmps4688/public_html/wp-includes/functions.php on line 4005
